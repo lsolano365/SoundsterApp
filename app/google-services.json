@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "721493798313",
+    "firebase_url": "https://soundster-app.firebaseio.com",
+    "project_id": "soundster-app",
+    "storage_bucket": "soundster-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721493798313:android:69ad6ee7df0d84c3f5e8b8",
+        "android_client_info": {
+          "package_name": "com.uco.soundsterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721493798313-npqt65bkmdrgipnqrvqnfl7u06ska1qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uco.soundsterapp",
+            "certificate_hash": "b7c16273e0fe9320ede43809ee93dd7caadd477f"
+          }
+        },
+        {
+          "client_id": "721493798313-bme85mqfbvftlbgvamatnm70f74f1trv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbdfItAQx5S7k4Wyjc4w07hkzNWx4DR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721493798313-bme85mqfbvftlbgvamatnm70f74f1trv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

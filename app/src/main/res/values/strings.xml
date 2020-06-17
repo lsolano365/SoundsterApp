@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Soundster App</string>
+    <string name="title_activity_profile_user">MainActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Mi música</string>
+</resources>

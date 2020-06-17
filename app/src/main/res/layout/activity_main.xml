@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La música se une con la amistad"
+        android:textSize="17dp" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+
+        <EditText
+            android:id="@+id/loginEdt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Correo electrónico"/>
+
+        <EditText
+            android:id="@+id/loginEdt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Contraseña"/>
+
+        <Button
+            android:id="@+id/btn_enterLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión"
+            android:background="@drawable/background_btn"
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"/>
+
+       <TextView
+           android:id="@+id/txt_registro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Regístrate"
+           android:textSize="17dp"
+           android:textColor="@color/textcolor"/>
+
+    </LinearLayout>
+
+</LinearLayout>
