@@ -19,7 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="La música se une con la amistad"
-        android:textSize="17dp" />
+        android:textSize="17dp"
+        android:textColor="@color/textcolor"/>
 
 
 
@@ -34,14 +35,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="Correo electrónico"/>
+            android:hint="Correo electrónico"
+            android:textColor="@color/textcolor"/>
 
         <EditText
             android:id="@+id/loginEdt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Contraseña"/>
+            android:hint="Contraseña"
+            android:textColor="@color/textcolor" />
 
         <Button
             android:id="@+id/btn_enterLogin"

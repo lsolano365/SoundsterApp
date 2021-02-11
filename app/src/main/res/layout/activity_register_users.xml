@@ -21,27 +21,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Nombre completo"/>
+            android:hint="Nombre completo"
+            android:textColor="@color/textcolor"/>
         <EditText
             android:id="@+id/edt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="email@example.com"/>
+            android:hint="email@example.com"
+            android:textColor="@color/textcolor"/>
 
         <EditText
             android:id="@+id/edt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Contraseña"/>
+            android:hint="Contraseña"
+            android:textColor="@color/textcolor"/>
 
         <EditText
             android:id="@+id/edt_confirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Confirmar contraseña"/>
+            android:hint="Confirmar contraseña"
+            android:textColor="@color/textcolor"/>
 
         <Button
             android:id="@+id/btn_registrar"
